@@ -1,0 +1,88 @@
+<?xml version= "1.0" encoding="UTF-8"?><PromotionDB version = "1.0" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance">
+<PromotionData code="123019002" instanceID="25579" priority="1000" status="ACTIVE" template="Price Deal - Reduced Price" templateId="7e0c328c-135c-49b0-b6a5-bff2046f4aea" barcode="" image="Kiosk_201901_2dollarsBundle.png">
+<Language code="en_US" name="English" parent="en"><Name>2 for $2</Name><LongDescription>Single item at regular price.  Cannot be combined with any other offer or any combo meal.</LongDescription></Language>
+<Language code="es_US" name="Spanish" parent="es"><Name>2 for $2</Name><LongDescription>Producto individual a precio regular. No puede combinarse con ninguna otra oferta o combo meal.</LongDescription></Language>
+<Promotion allowedQty="99" countTowardsPromotionLimit="true" EOLVEnhancedLogic="false" exclusive="false" id="5871" redemptionMode="OnTotal" showIndividualPrices="true" type="PriceDeal">
+    <Actions>
+        <SetItemPrice discountLimit="0.00" item="Eligible Items" price="1.00"/>
+    </Actions>
+    <Conditions>
+        <Date from="2020-01-07" to="2021-12-31"/>
+        <ProductSet alias="Eligible Items" codes="35|62|78" qty="2" sort="MostExpensiveFirst"/>
+    </Conditions>
+</Promotion>
+</PromotionData>
+<PromotionData code="420200001" instanceID="28678" priority="2000" status="ACTIVE" template="Price Deal - Two Product Sets - Reduced Price" templateId="cd580e86-3768-40d5-a654-86396187682b" barcode="" image="Kiosk_201901_3dollarsBundle.png">
+<Language code="en_US" name="English" parent="en"><Name>$3 Bundle</Name><LongDescription>Single item at regular price.  Cannot be combined with any other offer or any combo meal.</LongDescription>
+</Language><Language code="es_US" name="Spanish" parent="es"><Name>$3 Bundle</Name><LongDescription>Producto individual a precio regular. No puede combinarse con ninguna otra oferta o combo meal.</LongDescription></Language>
+<Promotion allowedQty="99" countTowardsPromotionLimit="true" EOLVEnhancedLogic="false" exclusive="false" id="6105" redemptionMode="OnTotal" showIndividualPrices="true" type="2forPromotion">
+    <Actions>
+        <SetItemPrice discountLimit="0.00" item="Eligible Items 1" price="1.50"/>
+        <SetItemPrice discountLimit="0.00" item="Eligible Items 2" price="1.50"/>
+    </Actions>
+    <Conditions>
+        <Date from="2020-06-09" to="2021-10-11"/>
+        <ProductSet alias="Eligible Items 1" codes="592|4834" qty="1" sort="MostExpensiveFirst"/>
+        <ProductSet alias="Eligible Items 2" codes="6050" qty="1" sort="MostExpensiveFirst"/>
+    </Conditions>
+</Promotion>
+</PromotionData>
+<PromotionData code="101419002" instanceID="17082" priority="3000" status="ACTIVE" template="Price Deal - Reduced Price" templateId="7e0c328c-135c-49b0-b6a5-bff2046f4aea" barcode="" image="Kiosk_201901_3dollarsBundle.png">
+<Language code="en_US" name="English" parent="en"><Name>2 For $3</Name><LongDescription>Single item at regular price.  Cannot be combined with any other offer or any combo meal.</LongDescription>
+</Language><Language code="es_US" name="Spanish" parent="es"><Name>2 For $3</Name><LongDescription>Producto individual a precio regular. No puede combinarse con ninguna otra oferta o combo meal.</LongDescription></Language>
+<Promotion allowedQty="99" countTowardsPromotionLimit="true" EOLVEnhancedLogic="false" exclusive="false" id="5715" redemptionMode="OnTotal" showIndividualPrices="true" type="PriceDeal">
+    <Actions>
+        <SetItemPrice discountLimit="0.00" item="Eligible Items" price="1.50"/>
+    </Actions>
+    <Conditions>
+        <Date from="2019-11-18" to="2021-12-31"/>
+        <ProductSet alias="Eligible Items" codes="4834" qty="2" sort="MostExpensiveFirst"/>
+    </Conditions>
+</Promotion>
+</PromotionData>
+<PromotionData code="902200003" instanceID="30442" priority="4000" status="ACTIVE" template="Price Deal - Reduced Price" templateId="7e0c328c-135c-49b0-b6a5-bff2046f4aea" barcode="" image="Kiosk_201901_3dollarsBundle.png"><Language code="en_US" name="English" parent="en"><Name>2 For $3 Bundle</Name><LongDescription>Single item at regular price.  Cannot be combined with any other offer or any combo meal.</LongDescription></Language><Language code="es_US" name="Spanish" parent="es"><Name>2 For $3 Bundle</Name><LongDescription>Producto individual a precio regular. No puede combinarse con ninguna otra oferta o combo meal.</LongDescription></Language><Promotion allowedQty="99" countTowardsPromotionLimit="true" EOLVEnhancedLogic="false" exclusive="false" id="6401" redemptionMode="OnTotal" showIndividualPrices="true" type="PriceDeal">
+    <Actions>
+        <SetItemPrice discountLimit="0.00" item="Eligible Items" price="1.50"/>
+    </Actions>
+    <Conditions>
+        <Date from="2020-09-28" to="2021-12-31"/>
+        <ProductSet alias="Eligible Items" codes="2565|3041|4543|5723" qty="2" sort="MostExpensiveFirst"/>
+    </Conditions>
+</Promotion>
+</PromotionData>
+<PromotionData code="609210002" instanceID="34474" priority="5000" status="ACTIVE" template="BOGO - Reduced Price" templateId="56c0052c-1bb8-4eb2-89db-34cb7346954c" barcode="" image="Kiosk_201902_BOGOfor1dollar_LTD.png">
+<Language code="en_US" name="English" parent="en"><Name>BOGO for $1</Name><LongDescription>Single item at regular price.  Cannot be combined with any other offer or any combo meal.</LongDescription></Language>
+<Language code="es_US" name="Spanish" parent="es"><Name>BOGO for $1</Name><LongDescription>Producto individual a precio regular. No puede combinarse con ninguna otra oferta o combo meal.</LongDescription></Language>
+<Promotion allowedQty="99" countTowardsPromotionLimit="true" EOLVEnhancedLogic="false" exclusive="false" id="6800" redemptionMode="OnTotal" showIndividualPrices="true" type="BOGO">
+    <Actions>
+        <SetItemPrice discountLimit="0.00" item="Eligible Items" price="1.00"/>
+    </Actions>
+    <Conditions>
+        <Date from="2021-08-09" to="2021-12-31"/>
+        <ProductSet codes="83|85|1603|9839" qty="1" sort="MostExpensiveFirst"/>
+        <ProductSet alias="Eligible Items" codes="83|85|1603|9839" eligible="true" minQty="1" qty="1" sort="MostExpensiveFirst"/>
+    </Conditions>
+</Promotion>
+</PromotionData>
+<PromotionData code="614210029" instanceID="34844" priority="6000" status="ACTIVE" template="Price Deal - Reduced Price" templateId="7e0c328c-135c-49b0-b6a5-bff2046f4aea" barcode="" image="Kiosk_201912_2for6_MixnMatch_GCM.png">
+<Language code="en_US" name="English" parent="en"><Name>2 for $6</Name><LongDescription>Single item at regular price.  Cannot be combined with any other offer or any combo meal.</LongDescription></Language>
+<Language code="es_US" name="Spanish" parent="es"><Name>2 for $6</Name><LongDescription>Producto individual a precio regular. No puede combinarse con ninguna otra oferta o combo meal.</LongDescription></Language>
+<Promotion allowedQty="99" countTowardsPromotionLimit="true" EOLVEnhancedLogic="false" exclusive="false" id="6888" redemptionMode="OnTotal" showIndividualPrices="true" type="PriceDeal">
+    <Actions>
+        <SetItemPrice discountLimit="0.00" item="Eligible Items" price="3.00"/>
+    </Actions>
+    <Conditions>
+        <Date from="2021-09-14" to="2021-10-11"/>
+        <ProductSet alias="Eligible Items" codes="5|7|5280|5926" qty="2" sort="MostExpensiveFirst"/>
+    </Conditions>
+</Promotion></PromotionData><PromotionData code="818210001" instanceID="34925" priority="7000" status="ACTIVE" template="Price Deal - Two Product Sets - Reduced Price" templateId="cd580e86-3768-40d5-a654-86396187682b" barcode="" image="Kiosk_201901_3dollarsBundle.png"><Language code="en_US" name="English" parent="en"><Name>$3 Bundle</Name><LongDescription>Single item at regular price.  Cannot be combined with any other offer or any combo meal.</LongDescription></Language><Language code="es_US" name="Spanish" parent="es"><Name>$3 Bundle</Name><LongDescription>Producto individual a precio regular. No puede combinarse con ninguna otra oferta o combo meal.</LongDescription></Language><Promotion allowedQty="99" countTowardsPromotionLimit="true" EOLVEnhancedLogic="false" exclusive="false" id="6911" redemptionMode="OnTotal" showIndividualPrices="true" type="2forPromotion">
+    <Actions>
+        <SetItemPrice discountLimit="0.00" item="Eligible Items 1" price="1.50"/>
+        <SetItemPrice discountLimit="0.00" item="Eligible Items 2" price="1.50"/>
+    </Actions>
+    <Conditions>
+        <Date from="2021-10-12" to="2021-12-31"/>
+        <ProductSet alias="Eligible Items 1" codes="592|3251|4834" qty="1" sort="MostExpensiveFirst"/>
+        <ProductSet alias="Eligible Items 2" codes="6050" qty="1" sort="MostExpensiveFirst"/>
+    </Conditions>
+</Promotion></PromotionData></PromotionDB>
