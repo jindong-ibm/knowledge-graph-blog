@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ProductDb version="1.0">
+  <Product statusCode="ACTIVE" productClass="VALUE_MEAL" productCategory="FOOD" salable="true" modified="false" grillGroup="LUNCH">
+    <ProductCode>0001</ProductCode>
+    <CategoryMenus>
+      <CategoryMenu categoryID="2"/>
+      <CategoryMenu categoryID="3"/>
+    </CategoryMenus>
+    <Secondary>false</Secondary>
+    <FamilyGroup>REGULAR_ENTREE</FamilyGroup>
+    <DayPartCode>DAY_MENU</DayPartCode>
+    <DummyProduct>false</DummyProduct>
+    <ContainerVM>false</ContainerVM>
+    <CSOHasLimitedTimeDiscount>false</CSOHasLimitedTimeDiscount>
+    <DisplayOrder>0001</DisplayOrder>
+    <SalesType eatin="true" takeout="true" other="true"/>
+    <DisplayWaste>false</DisplayWaste>
+    <Upsizable>false</Upsizable>
+    <Distribution>
+      <Point>DELIVERY</Point>
+      <Point>DRIVE_THRU</Point>
+      <Point>FRONT_COUNTER</Point>
+      <Point>PICKUP</Point>
+      <Point>WALK_THRU</Point>
+    </Distribution>
+    <Production>
+      <AutoGrill>false</AutoGrill>
+      <TriggerDisplayOnOrb>true</TriggerDisplayOnOrb>
+      <displayNumbersInsteadofModifiers>false</displayNumbersInsteadofModifiers>
+      <SubstitutionGrill/>
+    </Production>
+    <PriceList>
+      <PriceTag>
+        <Pricing priceCode="EATIN">
+          <Price/>
+          <Tax taxCode="ALWAYS" rule="BREAK_TABLE" entry="125586"/>
+        </Pricing>
+        <Pricing priceCode="TAKEOUT">
+          <Price/>
+          <Tax taxCode="ALWAYS" rule="BREAK_TABLE" entry="125586"/>
+        </Pricing>
+        <Pricing priceCode="OTHER">
+          <Price/>
+          <Tax taxCode="ALWAYS" rule="BREAK_TABLE" entry="125586"/>
+        </Pricing>
+      </PriceTag>
+    </PriceList>
+    <Composition>
+      <Component>
+        <ProductCode>7</ProductCode>
+        <DefaultQuantity>1</DefaultQuantity>
+        <MinQuantity>1</MinQuantity>
+        <MaxQuantity>1</MaxQuantity>
+        <RefundThreshold>0</RefundThreshold>
+        <ChargeThreshold>1</ChargeThreshold>
+        <CostInclusive>true</CostInclusive>
+        <PlainGrill>false</PlainGrill>
+        <SmartGrill>false</SmartGrill>
+        <ForceCompDisplay>POS</ForceCompDisplay>
+        <FlexibleChoice>false</FlexibleChoice>
+        <PriceCalculationMode>regular</PriceCalculationMode>
+        <setParentProductOutage>false</setParentProductOutage>
+      </Component>
+      <Component>
+        <ProductCode>89</ProductCode>
+        <DefaultQuantity>1</DefaultQuantity>
+        <MinQuantity>1</MinQuantity>
+        <MaxQuantity>1</MaxQuantity>
+        <RefundThreshold>0</RefundThreshold>
+        <ChargeThreshold>1</ChargeThreshold>
+        <CostInclusive>true</CostInclusive>
+        <PlainGrill>false</PlainGrill>
+        <SmartGrill>false</SmartGrill>
+        <ForceCompDisplay>POS</ForceCompDisplay>
+        <FlexibleChoice>false</FlexibleChoice>
+        <PriceCalculationMode>regular</PriceCalculationMode>
+        <setParentProductOutage>false</setParentProductOutage>
+      </Component>
+    </Composition>
+  </Product>
+  <Product statusCode="ACTIVE" productClass="PRODUCT" productCategory="FOOD" salable="true" modified="false">
+    <ProductCode>0055</ProductCode>
+    <CategoryMenus>
+      <CategoryMenu categoryID="1"/>
+      <CategoryMenu categoryID="2"/>
+      <CategoryMenu categoryID="3"/>
+    </CategoryMenus>
+    <Secondary>false</Secondary>
+    <FamilyGroup>SHAKES</FamilyGroup>
+    <DayPartCode>DAY_MENU</DayPartCode>
+    <DummyProduct>false</DummyProduct>
+    <ContainerVM>false</ContainerVM>
+    <CSOHasLimitedTimeDiscount>false</CSOHasLimitedTimeDiscount>
+    <DisplayOrder>608</DisplayOrder>
+    <SalesType eatin="true" takeout="true" other="true"/>
+    <DisplayWaste>false</DisplayWaste>
+    <Upsizable>false</Upsizable>
+    <Distribution>
+      <Point>KIOSK</Point>
+      <Point>DELIVERY</Point>
+      <Point>DRIVE_THRU</Point>
+      <Point>FRONT_COUNTER</Point>
+      <Point>HOT</Point>
+      <Point>WALK_THRU</Point>
+    </Distribution>
+    <Production>
+      <AutoGrill>false</AutoGrill>
+      <TriggerDisplayOnOrb>true</TriggerDisplayOnOrb>
+      <displayNumbersInsteadofModifiers>false</displayNumbersInsteadofModifiers>
+      <SubstitutionGrill/>
+    </Production>
+    <PriceList>
+      <PriceTag>
+        <Pricing priceCode="EATIN">
+          <Price/>
+          <Tax taxCode="ALWAYS" rule="BREAK_TABLE" entry="125586"/>
+        </Pricing>
+        <Pricing priceCode="TAKEOUT">
+          <Price/>
+          <Tax taxCode="ALWAYS" rule="BREAK_TABLE" entry="125586"/>
+        </Pricing>
+        <Pricing priceCode="OTHER">
+          <Price/>
+          <Tax taxCode="ALWAYS" rule="BREAK_TABLE" entry="125586"/>
+        </Pricing>
+      </PriceTag>
+    </PriceList>
+    <Presentation>
+      <BGNormal>ALICEBLUE</BGNormal>
+      <BGPressed>BLACK</BGPressed>
+      <FGNormal>BLACK</FGNormal>
+      <FGPressed>ALICEBLUE</FGPressed>
+      <BitmapName>Frozen Coffee.png</BitmapName>
+    </Presentation>
+  </Product>
+  <Product statusCode="ACTIVE" productClass="CHOICE" productCategory="FOOD" salable="true" modified="false">
+    <ProductCode>0415</ProductCode>
+    <Secondary>false</Secondary>
+    <FamilyGroup>REGULAR_DRINK</FamilyGroup>
+    <DayPartCode>BREAKFAST_DAY_MENU</DayPartCode>
+    <DummyProduct>false</DummyProduct>
+    <ContainerVM>false</ContainerVM>
+    <CSOHasLimitedTimeDiscount>false</CSOHasLimitedTimeDiscount>
+    <DisplayOrder>995</DisplayOrder>
+    <SalesType eatin="true" takeout="false" other="false"/>
+    <DisplayWaste>false</DisplayWaste>
+    <Upsizable>false</Upsizable>
+    <IsMutuallyExclusive>false</IsMutuallyExclusive>
+    <Distribution>
+      <Point>KIOSK</Point>
+      <Point>DELIVERY</Point>
+      <Point>DRIVE_THRU</Point>
+      <Point>FRONT_COUNTER</Point>
+      <Point>PICKUP</Point>
+      <Point>WALK_THRU</Point>
+    </Distribution>
+    <Production>
+      <AutoGrill>false</AutoGrill>
+      <KVSdisplay showOnMain="false" doNotDecompVM="false" showOnSummary="false" showOnMFY="false" displayGrillInstructions="ASKVS"/>
+      <Grillable doNotPrint="false" status="false"/>
+      <UseBufferEngine status="false" isBunBuffer="false"/>
+      <TriggerDisplayOnOrb>true</TriggerDisplayOnOrb>
+      <displayNumbersInsteadofModifiers>false</displayNumbersInsteadofModifiers>
+      <SubstitutionGrill/>
+    </Production>
+    <PriceList>
+      <PriceTag>
+        <Pricing priceCode="EATIN">
+          <Price/>
+          <Tax taxCode="ALWAYS" rule="BREAK_TABLE" entry="125586"/>
+        </Pricing>
+        <Pricing priceCode="TAKEOUT">
+          <Price/>
+          <Tax taxCode="ALWAYS" rule="BREAK_TABLE" entry="125586"/>
+        </Pricing>
+        <Pricing priceCode="OTHER">
+          <Price/>
+          <Tax taxCode="ALWAYS" rule="BREAK_TABLE" entry="125586"/>
+        </Pricing>
+      </PriceTag>
+    </PriceList>
+    <Composition>
+      <Component>
+        <ProductCode>73</ProductCode>
+        <DefaultQuantity>0</DefaultQuantity>
+        <MinQuantity>0</MinQuantity>
+        <MaxQuantity>1</MaxQuantity>
+        <RefundThreshold>0</RefundThreshold>
+        <ChargeThreshold>0</ChargeThreshold>
+        <CostInclusive>false</CostInclusive>
+        <PlainGrill>false</PlainGrill>
+        <SmartGrill>false</SmartGrill>
+        <ForceCompDisplay>OFF</ForceCompDisplay>
+        <Anchor>false</Anchor>
+        <setParentProductOutage>false</setParentProductOutage>
+      </Component>
+      <Component>
+        <ProductCode>74</ProductCode>
+        <DefaultQuantity>0</DefaultQuantity>
+        <MinQuantity>0</MinQuantity>
+        <MaxQuantity>1</MaxQuantity>
+        <RefundThreshold>0</RefundThreshold>
+        <ChargeThreshold>0</ChargeThreshold>
+        <CostInclusive>false</CostInclusive>
+        <PlainGrill>false</PlainGrill>
+        <SmartGrill>false</SmartGrill>
+        <ForceCompDisplay>OFF</ForceCompDisplay>
+        <Anchor>false</Anchor>
+        <setParentProductOutage>false</setParentProductOutage>
+      </Component>
+      <Component>
+        <ProductCode>296</ProductCode>
+        <DefaultQuantity>0</DefaultQuantity>
+        <MinQuantity>0</MinQuantity>
+        <MaxQuantity>1</MaxQuantity>
+        <RefundThreshold>0</RefundThreshold>
+        <ChargeThreshold>0</ChargeThreshold>
+        <CostInclusive>false</CostInclusive>
+        <PlainGrill>false</PlainGrill>
+        <SmartGrill>false</SmartGrill>
+        <ForceCompDisplay>OFF</ForceCompDisplay>
+        <Anchor>false</Anchor>
+        <setParentProductOutage>false</setParentProductOutage>
+      </Component>
+      <Component>
+        <ProductCode>777</ProductCode>
+        <DefaultQuantity>0</DefaultQuantity>
+        <MinQuantity>0</MinQuantity>
+        <MaxQuantity>1</MaxQuantity>
+        <RefundThreshold>0</RefundThreshold>
+        <ChargeThreshold>0</ChargeThreshold>
+        <CostInclusive>false</CostInclusive>
+        <PlainGrill>false</PlainGrill>
+        <SmartGrill>false</SmartGrill>
+        <ForceCompDisplay>OFF</ForceCompDisplay>
+        <Anchor>false</Anchor>
+        <setParentProductOutage>false</setParentProductOutage>
+      </Component>
+      <Component>
+        <ProductCode>888</ProductCode>
+        <DefaultQuantity>0</DefaultQuantity>
+        <MinQuantity>0</MinQuantity>
+        <MaxQuantity>1</MaxQuantity>
+        <RefundThreshold>0</RefundThreshold>
+        <ChargeThreshold>0</ChargeThreshold>
+        <CostInclusive>false</CostInclusive>
+        <PlainGrill>false</PlainGrill>
+        <SmartGrill>false</SmartGrill>
+        <ForceCompDisplay>OFF</ForceCompDisplay>
+        <Anchor>false</Anchor>
+        <setParentProductOutage>false</setParentProductOutage>
+      </Component>
+      <Component>
+        <ProductCode>999</ProductCode>
+        <DefaultQuantity>0</DefaultQuantity>
+        <MinQuantity>0</MinQuantity>
+        <MaxQuantity>1</MaxQuantity>
+        <RefundThreshold>0</RefundThreshold>
+        <ChargeThreshold>0</ChargeThreshold>
+        <CostInclusive>false</CostInclusive>
+        <PlainGrill>false</PlainGrill>
+        <SmartGrill>false</SmartGrill>
+        <ForceCompDisplay>OFF</ForceCompDisplay>
+        <Anchor>false</Anchor>
+        <setParentProductOutage>false</setParentProductOutage>
+      </Component>
+      <Component>
+        <ProductCode>1111</ProductCode>
+        <DefaultQuantity>0</DefaultQuantity>
+        <MinQuantity>0</MinQuantity>
+        <MaxQuantity>1</MaxQuantity>
+        <RefundThreshold>0</RefundThreshold>
+        <ChargeThreshold>0</ChargeThreshold>
+        <CostInclusive>false</CostInclusive>
+        <PlainGrill>false</PlainGrill>
+        <SmartGrill>false</SmartGrill>
+        <ForceCompDisplay>OFF</ForceCompDisplay>
+        <Anchor>false</Anchor>
+        <setParentProductOutage>false</setParentProductOutage>
+      </Component>
+    </Composition>
+    <Presentation>
+      <KVSColor>BLACK</KVSColor>
+      <DisplayColor>RED</DisplayColor>
+      <CSOLargeImageName>CSO_LRG_COFFEE_24.png</CSOLargeImageName>
+      <CSOSmallImageName>CSO_LRG_COFFEE_24.png</CSOSmallImageName>
+      <CSOGrillImageName>CSO_LRG_COFFEE_24.png</CSOGrillImageName>
+      <CSODimensionImageName>CSO_LRG_COFFEE_24.png</CSODimensionImageName>
+      <CSOCartImageName>CSO_LRG_COFFEE_24.png</CSOCartImageName>
+    </Presentation>
+    <CustomParameters>
+      <Parameter name="orderReviewNutritionTotalChoiceItemsExcluded" value="true"/>
+      <Parameter name="CHFChoiceCategory" value="true"/>
+    </CustomParameters>
+  </Product>
+  </ProductDb>
